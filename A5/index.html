@@ -3,58 +3,96 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Space Bike</title>
+
+  <title>Use Maria Clara</title>
+
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #111;
       font-family: Arial, sans-serif;
-      background: #111;
-      color: white;
+      min-height: 100vh;
+
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+
+      padding: 20px;
     }
 
     .container {
-      width: 90%;
-      max-width: 420px;
+      width: 100%;
+      max-width: 400px;
       text-align: center;
     }
 
     h1 {
-      margin-bottom: 30px;
+      color: white;
+      font-size: 28px;
+      margin-bottom: 35px;
     }
 
-    a {
+    .botao {
       display: block;
-      text-decoration: none;
-      background: white;
+      width: 100%;
+
+      background-color: white;
       color: #111;
-      padding: 16px;
-      margin: 14px 0;
-      border-radius: 12px;
+
+      text-decoration: none;
       font-size: 18px;
       font-weight: bold;
+
+      padding: 17px;
+      margin-bottom: 18px;
+
+      border-radius: 14px;
+
+      transition: 0.2s;
+    }
+
+    .botao:active {
+      transform: scale(0.97);
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>Space Bike</h1>
 
-    <a href="https://wa.me/5531989204640" target="_blank">
+  <div class="container">
+
+    <h1>Use Maria Clara</h1>
+
+    <a
+      class="botao"
+      href="https://wa.me/5531991219568"
+      target="_blank"
+    >
       WhatsApp
     </a>
 
-    <a href="https://instagram.com/space_bike7l" target="_blank">
+    <a
+      class="botao"
+      href="https://www.instagram.com/usemariaclara__/?stkn=aDIxb3l0bm9wa3pq"
+      target="_blank"
+    >
       Instagram
     </a>
 
-    <a href="https://share.google/xxO9fXtdEKDaJWCZL" target="_blank">
+    <a
+      class="botao"
+      href="https://share.google/mNXal2dsYt2R2ux9q"
+      target="_blank"
+    >
       Avalie no Google
     </a>
+
   </div>
+
 </body>
 </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111111">
+    <title>Ótica Centro Visão</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 18px;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            border-radius: 18px;
+            padding: 32px 24px 24px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            font-size: 27px;
+            line-height: 1.3;
+            margin-bottom: 10px;
+            color: #171717;
+            overflow-wrap: anywhere;
+        }
+        .subtitle {
+            font-size: 15px;
+            color: #777;
+            margin-bottom: 28px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 54px;
+            padding: 15px 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.2s, opacity 0.2s;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .button:active {
+            transform: scale(0.98);
+            opacity: 0.9;
+        }
+        .whatsapp {
+            background: #25D366;
+            color: #fff;
+        }
+        .instagram {
+            background: #E1306C;
+            color: #fff;
+        }
+        .google {
+            background: #202124;
+            color: #fff;
+        }
+        footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #888;
+            letter-spacing: 0.4px;
+        }
+        @media (max-width: 360px) {
+            .container {
+                padding: 26px 18px 22px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .button {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Ótica Centro Visão</h1>
+        <p class="subtitle">
+            Acesse nossas opções abaixo
+        </p>
+        <div class="buttons">
+            <a
+                class="button whatsapp"
+                href="https://wa.me/5531971987752"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Entre em contato pelo WhatsApp"
+            >
+                💬 WhatsApp
+            </a>
+            <a
+                class="button instagram"
+                href="https://www.instagram.com/centrovisaoparaopeba?xtok=eHB3dW9lNGZleGln"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Acesse nosso Instagram"
+            >
+                📸 Instagram
+            </a>
+            <a
+                class="button google"
+                href="https://search.google.com/local/writereview?placeid=ChIJm0zapSC1pwARse4bZN5RStE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Avalie nossa empresa no Google"
+            >
+                ⭐ Avalie no Google
+            </a>
+        </div>
+        <footer>
+            NFC Conecta Brasil
+        </footer>
+    </main>
+</body>
+</html>
